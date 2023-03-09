@@ -1,5 +1,8 @@
-module github.com/ugorji/go/codec
+module github.com/patricebensoussan/go/codec
 
 go 1.11
 
-require github.com/ugorji/go v1.2.6
+require (
+	github.com/creasty/defaults v1.6.0
+	github.com/patricebensoussan/go v0.0.1
+)
